@@ -9,6 +9,7 @@
     height: fill;
     background-color: black;
     color: white;
+    transition: 0.4s ease-in;
 }
 
 .main2 {
@@ -21,6 +22,7 @@
     height: fill;
     background-color: white;
     color: black;
+    transition: 0.4s ease-in;
 }
 
 .NavBar {
@@ -37,6 +39,7 @@
     font-size: 30px;
     font-weight: bolder;
     margin-bottom: 20px;
+    transition: 0.4s ease-in;
 }
 
 .btnl {
@@ -53,6 +56,11 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    transition: 0.4s ease-in;
+}
+
+.btnl:hover {
+    cursor: pointer;
 }
 
 .btnd {
@@ -69,6 +77,11 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    transition: 0.4s ease-in;
+}
+
+.btnd {
+    cursor: pointer;
 }
 
 .inputd {
@@ -83,6 +96,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    transition: 0.4s ease-in;
 }
 
 .inputl {
@@ -97,6 +111,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    transition: 0.4s ease-in;
 }
 
 .buttonsdiv {
@@ -127,6 +142,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 .btnr {
     width: auto;
     height: 35px;
@@ -143,6 +162,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.btnr:hover {
+    cursor: pointer;
+}
+
 .inputdD {
     width: 90%;
     height: 100px;
@@ -154,6 +177,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    transition: 0.4s ease-in;
 }
 
 .inputlL {
@@ -167,6 +191,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    transition: 0.4s ease-in;
 }
 
 .preview {
@@ -177,10 +202,12 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    transition: 0.4s ease-in;
 }
 
 .textCount {
     font-size: 15px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    transition: 0.4s ease-in;
 }
