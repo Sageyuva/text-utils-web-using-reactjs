@@ -33,6 +33,10 @@ function App() {
     navigator.clipboard.writeText(inputtext)
     alert("Text Copied")
   }
+  const HandleSpace = () => {
+    let newText = inputtext.split(/[ ]+/);
+    setinputtext(newText.join(" "));
+  }
 
 
   return (
@@ -49,11 +53,14 @@ function App() {
   <button onClick={HandleLow} className="btn">Lower Case</button>
   <button onClick={HandleCapi} className="btn">Capitalize Words</button>
   <button onClick={HandleCopy} className="btn">Copy Text</button>
+  <button onClick={HandleSpace} className="btn">Remove extra spaces</button>
   <button onClick={HandleClear} className="btnr">Clear Text</button>
   </div></center>
-  <center><p className='preview'>Preview</p> </center>
+ 
   <center>
-    <center><p className='textCount'>{inputtext.split(" ").length} Words and {inputtext.length} characters in the text </p></center>
+    <center><p className='textCount'>{inputtext.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {inputtext.length} characters</p></center>
+
+    <center><p className='preview'>{inputtext.length>0?"Preview":"Type something to get preview"}</p> </center>
     
  <p className={icon?'inputdD':'inputlL '}  >{inputtext}</p>
   </center>

@@ -9,7 +9,7 @@
     height: fill;
     background-color: black;
     color: white;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .main2 {
@@ -22,7 +22,7 @@
     height: fill;
     background-color: white;
     color: black;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .NavBar {
@@ -39,7 +39,7 @@
     font-size: 30px;
     font-weight: bolder;
     margin-bottom: 20px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .btnl {
@@ -56,7 +56,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .btnl:hover {
@@ -77,7 +77,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .btnd {
@@ -96,7 +96,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .inputl {
@@ -111,7 +111,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .buttonsdiv {
@@ -177,7 +177,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .inputlL {
@@ -191,23 +191,24 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .preview {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
 
 .textCount {
+    margin-top: 40px;
     font-size: 15px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    transition: 0.4s ease-in;
+    transition: 0.4s ease;
 }
